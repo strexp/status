@@ -20,10 +20,10 @@ locales:
     iso: en-US
     name: English
     file: en.json
-  - code: zh-cn
-    iso: zh-CN
-    name: 中文
-    file: zh-cn.json
+      #- code: zh-cn
+      #iso: zh-CN
+      #name: 中文
+      #file: zh-cn.json
 content:
   systems:
     - inet_backbone_asia
