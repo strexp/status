@@ -3,7 +3,7 @@ name: "Deploy Statusfy"
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   github-pages:
