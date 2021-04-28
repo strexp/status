@@ -1,0 +1,26 @@
+name: "Statusfy Incident"
+on:
+  issue_comment:
+  issues:
+    types: [opened, edited, closed, reopened]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Generate incident
+      uses: devkanro/setup-statusfy@v1
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master
+    - name: Build the static site.
+      run: |
+        yarn
+        yarn generate
+    - name: Publish the static site to GitHub Pages.
+      uses: jamesives/github-pages-deploy-action@releases/v3
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: dist
