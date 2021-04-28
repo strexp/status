@@ -2,9 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://status.strexp.net</id>
     <title>Strategic Explorations Status</title>
-    <updated>2021-04-28T12:48:04.624Z</updated>
+    <updated>2021-04-28T12:51:56.997Z</updated>
     <generator>Statusfy</generator>
     <link rel="alternate" href="https://status.strexp.net"/>
     <link rel="self" href="https://status.strexp.net/feeds/incidents.en.atom"/>
     <subtitle>Strategic Explorations operates a global IP backbone network, which is connected to multiple distributed networks around the world and is connected to several major exchange points. This is the system status for the Strategic Explorations service.</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Test Incident]]></title>
+        <id>https://status.strexp.net/incidents/02ce95dc</id>
+        <link href="https://status.strexp.net/incidents/02ce95dc"/>
+        <updated>2021-04-28T12:37:10.000Z</updated>
+        <summary type="html"><![CDATA[This is an incident just for testing purpose.]]></summary>
+        <content type="html"><![CDATA[<p>This is an incident just for testing purpose.</p>
+<div class="update-block">
+          <div class="update-block-date">2021-04-28T12:46:33.000Z</div>
+          <div class="update-block-content">
+            <div class="update-block-title">Test Update</div>
+            <div class="update-block-body">
+<p>Incident updated.</p>
+</div></div></div>
+<div class="update-block">
+          <div class="update-block-date">2021-04-28T12:50:32.000Z</div>
+          <div class="update-block-content">
+            <div class="update-block-title">Update Label</div>
+            <div class="update-block-body">
+<p>No comment.</p>
+</div></div></div>
+]]></content>
+    </entry>
 </feed>

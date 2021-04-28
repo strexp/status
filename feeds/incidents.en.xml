@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Strategic Explorations Status</title>
         <link>https://status.strexp.net</link>
         <description>Strategic Explorations operates a global IP backbone network, which is connected to multiple distributed networks around the world and is connected to several major exchange points. This is the system status for the Strategic Explorations service.</description>
-        <lastBuildDate>Wed, 28 Apr 2021 12:48:04 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 Apr 2021 12:51:56 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Statusfy</generator>
         <atom:link href="https://status.strexp.net/feeds/incidents.en.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Test Incident]]></title>
+            <link>https://status.strexp.net/incidents/02ce95dc</link>
+            <guid>https://status.strexp.net/incidents/02ce95dc</guid>
+            <pubDate>Wed, 28 Apr 2021 12:37:10 GMT</pubDate>
+            <description><![CDATA[This is an incident just for testing purpose.]]></description>
+            <content:encoded><![CDATA[<p>This is an incident just for testing purpose.</p>
+<div class="update-block">
+          <div class="update-block-date">2021-04-28T12:46:33.000Z</div>
+          <div class="update-block-content">
+            <div class="update-block-title">Test Update</div>
+            <div class="update-block-body">
+<p>Incident updated.</p>
+</div></div></div>
+<div class="update-block">
+          <div class="update-block-date">2021-04-28T12:50:32.000Z</div>
+          <div class="update-block-content">
+            <div class="update-block-title">Update Label</div>
+            <div class="update-block-body">
+<p>No comment.</p>
+</div></div></div>
+]]></content:encoded>
+        </item>
     </channel>
 </rss>
