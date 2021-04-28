@@ -1,0 +1,64 @@
+{
+  "title": "Strategic Explorations Status",
+  "description": "Strategic Explorations operates a global IP backbone network, which is connected to multiple distributed networks around the world and is connected to several major exchange points. This is the system status for the Strategic Explorations service.",
+  "systems": {
+    "items": {
+      "inet_backbone_asia": {
+        "title": "Internet Backbone (Asia)",
+        "description": "Our Internet backbone carrier network at Asia (HK, SG, JP, TW, KR)."
+      },
+      "inet_backbone_europe": {
+        "title": "Internet Backbone (Europe)",
+        "description": "Our Internet backbone carrier network at Europe (NL, FR, DE, UK, RO)."
+      },
+      "inet_backbone_america": {
+        "title": "Internet Backbone (America)",
+        "description": "Our Internet backbone carrier network at America (LAX, VAN, LAS, NYC, SEA, FMT)."
+      },
+      "inet_cn": {
+        "title": "Internet (China)",
+        "description": "Our Internet carrier network at China (Chengdu, Hangzhou, Guangzhou)."
+      },
+      "dn42_backbone_asia": {
+        "title": "DN42 Backbone (Asia)",
+        "description": "Our DN42 backbone carrier network at Asia (HK, SG, JP, TW, KR)."
+      },
+      "dn42_backbone_europe": {
+        "title": "DN42 Backbone (Europe)",
+        "description": "Our DN42 backbone carrier network at Europe (NL, FR, DE, UK, RO)."
+      },
+      "dn42_backbone_america": {
+        "title": "DN42 Backbone (America)",
+        "description": "Our DN42 backbone carrier network at America (LAX, VAN, LAS, NYC, SEA, FMT)."
+      },
+      "dn42_cn": {
+        "title": "DN42 (China)",
+        "description": "Our DN42 carrier network at China (Chengdu, Hangzhou, Guangzhou)."
+      },
+      "inet_services": {
+        "title": "Internet Services",
+        "description": "Our public Internet Services."
+      },
+      "dn42_services": {
+        "title": "DN42 Services",
+        "description": "Our public DN42 Services."
+      },
+      "inet_cn_services": {
+        "title": "Internet Service (China)",
+        "description": "Our public Internet Services in China."
+      },
+      "dn42_cn_services": {
+        "title": "DN42 Service (China)",
+        "description": "Our public DN42 Services in China."
+      },
+      "inet_customer_access_networks": {
+        "title": "Internet Customer Access Networks",
+        "description": "Our access network for Internet customers."
+      },
+      "dn42_customer_access_networks": {
+        "title": "DN42 Customer Access Networks",
+        "description": "Our access network for DN42 customers."
+      }
+    }
+  }
+}

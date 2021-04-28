@@ -1,0 +1,43 @@
+title: Strategic Explorations Status
+short_title: StrExp Status
+baseUrl: https://status.strexp.net
+name: strategic_explorations_status
+description: Strategic Explorations operates a global IP backbone network, which is
+  connected to multiple distributed networks around the world and is connected
+  to several major exchange points. This is the system status for the Strategic
+  Explorations service.
+defaultLocale: en
+theme:
+  links:
+    en:
+      contact: "mailto:info@strexp.net"
+      support: "mailto:info@strexp.net"
+      home: "https://strexp.net"
+      privacy: "https://strexp.net"
+      legal: "https://strexp.net"
+locales:
+  - code: en
+    iso: en-US
+    name: English
+    file: en.json
+  - code: zh-cn
+    iso: zh-CN
+    name: 中文
+    file: zh-cn.json
+content:
+  systems:
+    - inet_backbone_asia
+    - inet_backbone_europe
+    - inet_backbone_america
+    - inet_cn
+    - dn42_backbone_asia
+    - dn42_backbone_europe
+    - dn42_backbone_america
+    - dn42_cn
+    - inet_services
+    - dn42_services
+    - inet_cn_services
+    - dn42_cn_services
+    - inet_customer_access_networks
+    - dn42_customer_access_networks
+  frontMatterFormat: yaml
