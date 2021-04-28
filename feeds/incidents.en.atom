@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://status.strexp.net</id>
+    <title>Strategic Explorations Status</title>
+    <updated>2021-04-28T12:22:19.476Z</updated>
+    <generator>Statusfy</generator>
+    <link rel="alternate" href="https://status.strexp.net"/>
+    <link rel="self" href="https://status.strexp.net/feeds/incidents.en.atom"/>
+    <subtitle>Strategic Explorations operates a global IP backbone network, which is connected to multiple distributed networks around the world and is connected to several major exchange points. This is the system status for the Strategic Explorations service.</subtitle>
+</feed>
